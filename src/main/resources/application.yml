@@ -3,9 +3,11 @@ spring:
   driver-class-name: org.sqlite.JDBC
   username: ''
   password: ''
-  url: jdbc:sqlite::resource:db/housedata.sqlite
+  url: jdbc:sqlite:housedata.sqlite
 
 sql:
  init:
   schema-locations: classpath:db/schema-h2.sql
   data-locations: classpath:db/data-h2.sql
+
+

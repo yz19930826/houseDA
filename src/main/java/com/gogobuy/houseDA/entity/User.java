@@ -5,9 +5,9 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 @Data
-@TableName("user")
+//@TableName("user")
 public class User {
-    @TableId
+//    @TableId
     private Long id;
     private String name;
     private Integer age;
